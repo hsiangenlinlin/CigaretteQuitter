@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/initialFragment"
+        android:icon="@drawable/baseline_reset_tv_24"
+        android:title="@string/reset" />
+    <item
+        android:id="@+id/calendarFragment"
+        android:icon="@drawable/baseline_calendar_month_24"
+        android:title="@string/calendar" />
+    <item
+        android:id="@+id/tipFragment"
+        android:icon="@drawable/baseline_tips_and_updates_24"
+        android:title="@string/quitting_tips" />
+
+    <item
+        android:id="@+id/guidelineFragment"
+        android:icon="@drawable/baseline_guideline_24"
+        android:title="@string/app_guideline" />
+</menu>

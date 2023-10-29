@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Cigarette Quitter</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_text">Welcome to Cigarette Quitter!</string>
+    <string name="your_name">Your name:</string>
+    <string name="price_of_your_cigarette">Price of your cigarette (one cigarette)?</string>
+    <string name="selected_duration">Selected item:</string>
+    <string name="navigation_drawer_open">navigation drawer open</string>
+    <string name="navigation_drawer_close">navigation drawer close</string>
+    <string name="home">Home</string>
+    <string name="calendar">Calendar</string>
+    <string name="quitting_tips">Quitting Tips</string>
+    <string name="app_guideline">App Guideline</string>
+    <string name="reset">Reset</string>
+    <string name="smoke_one">smoke one</string>
+    <string name="how_many_cigarette_do_you_use_in_a_day">How many cigarette do you use in a day?</string>
+    <string name="duration_of_quitting_you_wish">Duration of Quitting you wish:</string>
+    <string name="quit_directly_no_duration">Quit directly (No Duration)</string>
+    <string name="start_the_journey">Start the journey</string>
+    <string name="guideline_fragment">Guideline Fragment</string>
+    <string name="enter_a_tip_title">Enter a tip title</string>
+    <string name="enter_a_tip_content">Enter a tip content</string>
+    <string name="save_tip">Save Tip</string>
+    <string name="calendar_fragment">Calendar fragment here! Will be developed in the future!</string>
+    <string name="smoke_successfully">Smoke Successfully!</string>
+    <string name="quota_finish">The quota of today has finished! Try not to smoke!</string>
+    <string name="undo">UNDO</string>
+    <string name="quota_of_today">"Quota of Today: "</string>
+    <string name="welcome">Welcome </string>
+    <string name="you_have_saved">You have saved $</string>
+    <string name="you_have_avoided">"You have avoided "</string>
+    <string name="cigarettes">cigarettes</string>
+    <string name="you_have_quit_for">"You have quit for "</string>
+    <string name="days">" Days"</string>
+    <string-array name="durationOptions">
+        <item></item>
+        <item>2 weeks</item>
+        <item>3 weeks</item>
+        <item>1 month</item>
+        <item>2 months</item>
+        <item>3 months</item>
+    </string-array>
+</resources>

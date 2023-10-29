@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">戒菸好幫手</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_text">歡迎來到戒菸好幫手!</string>
+    <string name="your_name">你的名字:</string>
+    <string name="price_of_your_cigarette">香菸價格 (一支)?</string>
+    <string name="selected_duration">選擇項目:</string>
+    <string name="navigation_drawer_open">導航桌打開</string>
+    <string name="navigation_drawer_close">導航桌關閉</string>
+    <string name="home">主頁</string>
+    <string name="calendar">月曆</string>
+    <string name="quitting_tips">小叮嚀</string>
+    <string name="app_guideline">規則</string>
+    <string name="reset">重新設定</string>
+    <string name="smoke_one">抽一根</string>
+    <string name="how_many_cigarette_do_you_use_in_a_day">你現在一天抽幾根菸?</string>
+    <string name="duration_of_quitting_you_wish">想要多久戒掉菸癮:</string>
+    <string name="quit_directly_no_duration">直接戒掉</string>
+    <string name="start_the_journey">開始戒菸!</string>
+    <string name="guideline_fragment">規則頁面</string>
+    <string name="enter_a_tip_title">輸入小叮嚀標題</string>
+    <string name="enter_a_tip_content">輸入小叮嚀內容</string>
+    <string name="save_tip">儲存</string>
+    <string name="calendar_fragment">這裡是月曆頁面! 我們以後就會開發了!</string>
+    <string name="smoke_successfully">煙又少一根囉!</string>
+    <string name="quota_finish">今天沒有扣打了! 不要抽了啦!</string>
+    <string name="undo">取消</string>
+    <string name="you_have_saved">你已經省了 $</string>
+    <string name="quota_of_today">"今日扣打還剩: "</string>
+    <string name="welcome">歡迎 </string>
+    <string name="you_have_avoided">"你已經少抽了 "</string>
+    <string name="cigarettes">支菸</string>
+    <string name="you_have_quit_for">"你已經戒菸戒了 "</string>
+    <string name="days">" 天"</string>
+    <string-array name="durationOptions">
+        <item></item>
+        <item>2個星期</item>
+        <item>3個星期</item>
+        <item>1個月</item>
+        <item>2個月</item>
+        <item>3個月</item>
+    </string-array>
+</resources>

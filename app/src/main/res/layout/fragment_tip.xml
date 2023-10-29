@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".TasksFragment">
+    <data>
+        <variable
+            name="viewModel"
+            type="com.example.cigarettequitter.TipViewModel" />
+    </data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/tip_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/enter_a_tip_title"
+            android:text="@={viewModel.newTipTitle}" />
+        <EditText
+            android:id="@+id/tip_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/enter_a_tip_content"
+            android:text="@={viewModel.newTipContent}" />
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/save_tip"
+            android:onClick="@{() -> viewModel.addTip()}" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/tips_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="top"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+             />
+    </LinearLayout>
+</layout>

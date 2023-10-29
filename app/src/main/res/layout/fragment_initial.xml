@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".InitialFragment">
+
+        <TextView
+            android:id="@+id/textView_welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:text="@string/welcome_text"
+            android:textSize="23sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/textView_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="56dp"
+
+            android:text="@string/your_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.187"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView_welcome" />
+
+        <EditText
+            android:id="@+id/editTextText_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            app:layout_constraintStart_toStartOf="@+id/textView_name"
+            app:layout_constraintTop_toBottomOf="@+id/textView_name" />
+
+
+        <TextView
+            android:id="@+id/textView_priceOfCigarette"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/price_of_your_cigarette"
+            app:layout_constraintStart_toStartOf="@+id/editTextText_name"
+            app:layout_constraintTop_toBottomOf="@+id/editTextText_name" />
+
+        <EditText
+            android:id="@+id/editText_priceOfCigarette"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="3"
+            android:inputType="numberDecimal"
+            android:text=""
+            app:layout_constraintStart_toStartOf="@+id/textView_priceOfCigarette"
+            app:layout_constraintTop_toBottomOf="@+id/textView_priceOfCigarette" />
+
+
+        <TextView
+            android:id="@+id/textView_numOfCigarette"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/how_many_cigarette_do_you_use_in_a_day"
+            app:layout_constraintStart_toStartOf="@+id/textView_priceOfCigarette"
+            app:layout_constraintTop_toBottomOf="@+id/editText_priceOfCigarette" />
+
+        <EditText
+            android:id="@+id/editText_numOfCigarette"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="3"
+            android:inputType="number"
+            android:text=""
+            app:layout_constraintStart_toStartOf="@+id/textView_numOfCigarette"
+            app:layout_constraintTop_toBottomOf="@+id/textView_numOfCigarette" />
+
+
+        <TextView
+            android:id="@+id/textView_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/duration_of_quitting_you_wish"
+            app:layout_constraintStart_toStartOf="@+id/textView_numOfCigarette"
+            app:layout_constraintTop_toBottomOf="@+id/editText_numOfCigarette" />
+
+        <Spinner
+            android:id="@+id/spinner_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@+id/textView_duration"
+            app:layout_constraintTop_toBottomOf="@+id/textView_duration" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_quitDirectly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:checkable="true"
+            android:text="@string/quit_directly_no_duration"
+            app:layout_constraintStart_toStartOf="@+id/spinner_duration"
+            app:layout_constraintTop_toBottomOf="@+id/spinner_duration" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/start_the_journey"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chip_quitDirectly"
+            app:layout_constraintVertical_bias="0.279" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+
