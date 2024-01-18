@@ -12,7 +12,8 @@ The **Cigarette Quitter** Android application is designed to assist individuals 
 ## Home Page
 
 <img width="256" alt="截圖 2024-01-18 晚上9 05 59" src="https://github.com/hsiangenlinlin/CigaretteQuitter/assets/125904538/7747142c-b41b-4133-97f8-1c64220520a6">
-![IMG_1270](https://github.com/hsiangenlinlin/CigaretteQuitter/assets/125904538/8417c0bf-4b64-4dbf-8ba8-310c5bea8953)
+![IMG_1270](https://github.com/hsiangenlinlin/CigaretteQuitter/assets/125904538/a4411422-8cc7-4af1-8afc-edd7b42d756d)
+
 
 
 ## Navigation Drawer
@@ -20,5 +21,9 @@ The **Cigarette Quitter** Android application is designed to assist individuals 
 <img width="259" alt="截圖 2024-01-18 晚上8 51 26" src="https://github.com/hsiangenlinlin/CigaretteQuitter/assets/125904538/7f6424c3-e721-4187-a2a9-8e0f2b61d781">
 
 ## Add Some Tips
+
+https://github.com/hsiangenlinlin/CigaretteQuitter/assets/125904538/d1ba0299-eaaf-426e-8c89-3cb88413845f
+
+
 
 https://github.com/hsiangenlinlin/CigaretteQuitter/assets/125904538/f9b6d0d2-3dad-4011-95e0-2acc42714b17
